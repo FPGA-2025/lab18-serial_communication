@@ -4,7 +4,7 @@ A comunicação serial é fundamental para se poder utilizar os diferentes perif
 > O objetivo deste laboratório é implementar o protocolo UART como exemplo de comunicação serial.
 
 ## UART
-O protocolo UART prevê uma linha única de dados (em cada sentido) que descansa em nível alto. Quando a comunicação vai se iniciar, o transmissor coloca a linha em nível baixo e no ciclo seguinte começa a enviar os bits. São enviados 8 bits sendo que o oitavo bit é de paridade, do tipo par. Ao final da transmisão, a linha deve voltar a descansar no nível alto. Veja o diagrama de bits a seguir.
+O protocolo UART prevê uma linha única de dados (em cada sentido) que descansa em nível alto. Quando a comunicação vai se iniciar, o transmissor coloca a linha em nível baixo e no ciclo seguinte começa a enviar os bits. São enviados 8 bits sendo que o oitavo bit é de paridade, do tipo par. Ao final da transmisão, a linha deve voltar a descansar no nível alto. Veja o diagrama de bits a seguir. **Use o tema claro do github para poder ver os dígitos**
 
 ![UART](UART.png)
 
